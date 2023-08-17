@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;   /* 1 rem = 10 px s */
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+li,label,input,button,p{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 4.8rem;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4,h5{
+    font-size: 2.8rem;
+}
+
+/* ......college_contacts....*/
+
+#college_contacts {
+    display: flex;
+    flex-direction:row-reverse ;
+    flex-wrap: nowrap;
+    background-color: #f15654 ;
+    height: 2cm;
+    align-items: center;
+}
+
+
+
+img{
+    border-radius: 100%;
+    width:1cm;
+    height:1cm;
+}
+
+#twt{
+    margin-right: 2cm;
+}
+
+
+
+.socialmedia_logo{
+    margin-left: 1cm;
+}
+
+
+.hidden {
+    position: relative;
+    text-decoration: none;
+    color: #f1f1f1;
+    
+    
+    }
+
+.con{
+    margin-left: 0.2cm;
+    margin-right: 26cm; 
+}
+
+
+a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+
+
+/* Nav Section */
+.main-head{
+    background-color:rgb(255, 255, 255);
+    color:rgb(5, 5, 5);
+}
+
+nav{
+    padding: 1rem;
+    min-height: 10vh;
+    display: flex;
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 8cm;
+    
+    flex: 3 1 40rem;           /* for spacing Between List Elements */
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logo{
+    
+    border-radius: 0%;
+    width: 8cm;
+    height:1.5cm;
+    
+}
+
+
+button{
+    margin: 0.5cm;
+    padding: 2rem 6rem;
+    background:  #f15654 ;
+    border: none;
+    color: black;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background 1s ease;
+}
+button:hover{
+    background: rgb(255, 255, 255) ;
+    color:  #f15654 ;
+}
+
+.college{
+    min-height: 90vh;
+    background :linear-gradient(rgba(0,0,0,0.5), transparent), url("https://www.mvgrce.com/images/slider/cache/e80446cdd09630cab90aede7bc0544cf/mansastrust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.college h3{
+    padding: 5rem;
+    text-shadow: 5px 5px 5px black;
+}
+.college h2{
+    text-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+
+/*....form.......*/
+
+
+legend{
+    text-align: center;
+    font-size: x-large;
+}
+
+form{
+    position: relative;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#admissionform{
+    min-height: 90vh;
+    background : #EEEEEE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(9, 9, 9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0.5cm;
+    padding: 20px;
+
+   
+}
+
+input{
+    height: 1cm;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+input:focus{
+    border-bottom-width: 2px;
+}
+
+.agree{
+   margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.3cm;
+   
+} 
+
+fieldset{
+    padding: 1cm;
+}
+
+
+
+/*........footer.....*/
+#footer{
+    
+    display: flex;
+    flex: 3 1 40rem;
+    background-color: #2E2E2E;
+    
+}
+
+.fot{
+    margin: 2cm;
+    align-content: center;
+    text-align:left ;
+}
+
+div ul li{
+    list-style: none;
+
+}
+
+.f{
+    color:#838383;
+    font-size: small;
+    text-decoration: underline;
+    
+}
+
+.map{
+    margin-left: 3cm;;
+    border-radius: 0%;
+    width:7cm;
+    height:7cm;
+}
+
+div li a:hover {
+   color: #f1f1f1;
+    
+  }
+
+.ff{
+    color:#838383;
+    font-size: small;
+}
+
+#fott{
+    margin-left: 0.5cm;
+}
+
+
+@media screen and (max-width:1050px){
+    html{
+        font-size: 45%;
+    }
+        nav{
+            text-align: center;
+        }
+        nav li{
+            margin-left: 1rem;
+        }
+        #logo{
+          padding: 2rem;
+        }
+        .form-style{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer{
+            font-size: 1rem;
+        }
+    }
+    
